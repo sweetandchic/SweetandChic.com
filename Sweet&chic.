@@ -1,1 +1,115 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sweet&chic.com</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom right, pink, plum);
+      color: #4b004b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #fff0f5;
+      padding: 2rem 1rem;
+      border-bottom: 4px dotted #ff69b4;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #ff1493;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .products, .makeovers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .card {
+      background-color: #ffe4f5;
+      border-radius: 20px;
+      padding: 1rem;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #fff0f5;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 4px dotted #ff69b4;
+    }
+    .btn {
+      background-color: #ff69b4;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>sweet&chic.com</h1>
+    <p class="tagline">Preppy • Pretty • Makeover Magic ✨</p>
+  </header>
+
+  <section class="section">
+    <h2>💄 Shop Beauty Essentials</h2>
+    <div class="products">
+      <div class="card">Lip Gloss Set 💋</div>
+      <div class="card">Glitter Eyeshadow 🌟</div>
+      <div class="card">Blush & Highlight Kit 💖</div>
+      <div class="card">Preppy Nail Stickers 💅🏻</div>
+      <div class="card">Claw Clips 🦋</div>
+      <div class="card">Tattoo Stickers 🌈</div>
+      <div class="card">Face Mask 🍓</div>
+      <div class="card">Mascara 🖤</div>
+      <div class="card">Bronzer ☀️</div>
+      <div class="card">Bracelets 💫</div>
+      <div class="card">Scrunchies 🎀</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>💫 Virtual Makeovers</h2>
+    <p>Try our fun, fake (but fab) makeovers! ✨</p>
+    <div class="makeovers">
+      <div class="card">Glam Look ✨</div>
+      <div class="card">Soft Pastel Vibe 🌷</div>
+      <div class="card">Pop Star Pink 💖</div>
+    </div>
+    <button class="btn">Start Your Makeover</button>
+  </section>
+
+  <section class="section">
+    <h2>🎀 Join the Sweet & Chic Club</h2>
+    <p>Sign up to get cute updates and secret deals 💌</p>
+    <button class="btn">Join Now</button>
+  </section>
+
+  <footer>
+    <p>© 2025 sweet&chic.com • Not real, just fab • Contact: info@sweetandchic.com</p>
+  </footer>
+</body>
+</html>
+
